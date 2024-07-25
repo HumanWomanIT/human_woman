@@ -1,0 +1,9 @@
+.social_media{
+    margin-left: 18px;
+    display: flex;
+    gap: 38px;
+}
+
+.social_media > a img{
+    width: 45px;
+}

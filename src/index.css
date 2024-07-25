@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-color: #048B8E;
+    --bg-color: #C2BDB9;
+}
+
+#root {
+    max-width: 1920px;
+}
+
+.container {
+    margin: 70px 116px ;
+}
+
+li{
+    list-style: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: #048B8E;
+    font-size: 22px;
+    line-height: 24.2px;
+}
