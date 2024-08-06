@@ -1,0 +1,23 @@
+.regiter_section{
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_container > h1{
+    font-size: 96px;
+    line-height: 107px;
+    color: #4D4D4D;
+}
+
+.text_container > p{
+    font-size: 24px;
+    color: #717171;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.regiter_section > div:nth-of-type(2){
+    margin: 96px 144px 96px 104px;
+}

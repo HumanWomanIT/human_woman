@@ -1,9 +1,9 @@
-import { SocialMedia } from "../SocialMedia/SocialMedia";
+import { Buttons } from "../Buttons/Buttons";
 import "./navBar.css";
 
 export const NavBar = () => {
     return (
-        <nav className="nav_bar">
+        <nav className="nav_bar container">
             <ul>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
@@ -22,17 +22,21 @@ export const NavBar = () => {
                 </li>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
-                        About Us
+                        Training
                     </a>
                 </li>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
-                        Contact
+                        Testimonial
                     </a>
                 </li>
-                <span></span>
+                <li>
+                    <a href="#" target="_blank" className="underline_anim">
+                        FAQ
+                    </a>
+                </li>
             </ul>
-            <SocialMedia/>
+            <Buttons/>
         </nav>
     );
 };

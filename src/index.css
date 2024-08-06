@@ -5,16 +5,25 @@
 }
 
 :root {
-    --font-color: #048B8E;
-    --bg-color: #C2BDB9;
+    --font-color: #18191F;
+    --bg-color: #F5F7FA;
 }
 
 #root {
-    max-width: 1920px;
+    max-width: 2200px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .container {
-    margin: 70px 116px ;
+    margin-left: 150px;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 li{
@@ -23,7 +32,6 @@ li{
 
 li > a{
     text-decoration: none;
-    color: #048B8E;
-    font-size: 22px;
-    line-height: 24.2px;
+    cursor: pointer;
 }
+

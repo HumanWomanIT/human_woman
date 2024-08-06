@@ -1,6 +1,5 @@
 import './socialMedia.css';
-import facebook from '../../assets/facebook.png';
-import instagram from '../../assets/Instagram.png';
+
 
 
 export const SocialMedia = () => {

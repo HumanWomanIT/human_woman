@@ -1,13 +1,10 @@
 .header_wrapper {
-    max-width: 1920px;
-    height: 160px;
-    background: #C2BDB940;
+    height: 121px;
+    background: var(--bg-color);
     display: flex;
     align-items: center;
 }
 
 .header_wrapper > img {
-    width: 146.47px;
-    height: 140px;
-    margin: 10px 230px;
+    margin: 18px 34px 34px 155px;
 }

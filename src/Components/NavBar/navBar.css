@@ -1,22 +1,18 @@
-.nav_bar{
+.nav_bar {
     display: flex;
+    align-items: center;
 }
 
-.nav_bar ul{
+.nav_bar ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav_bar ul li{
+.nav_bar ul li a {
     margin-left: 38px;
-}
-
-.nav_bar span{
-    width: 3px;
-    height: 40px;
-    margin-left: 19px;
-    background-color: var(--font-color);
+    color: var(--font-color);
+    font-size: 24px;
 }
 
 .underline_anim {
@@ -24,23 +20,30 @@
     position: relative;
     color: var(--font-color);
     text-decoration: none;
-    padding-bottom: 2px; 
+    padding-bottom: 2px;
 }
 
 .underline_anim::before {
     content: '';
     position: absolute;
     width: 100%;
-    height: 2px; 
+    height: 2px;
     bottom: 0;
     left: 0;
     background-color: var(--font-color);
     transform: scaleX(0);
-    transition: transform 0.3s ease-out;
+    transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        background-color 0.4s ease;
     transform-origin: bottom right;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .underline_anim:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.underline_anim:hover {
+    color: rgba(0, 0, 0, 0.8);
 }

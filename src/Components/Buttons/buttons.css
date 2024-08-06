@@ -1,0 +1,24 @@
+.buttons{
+    display: flex;
+    gap: 14px;
+    margin-left: 156px;
+}
+
+.buttons > button:nth-of-type(1){
+    width: 107px;
+    height: 46px;
+    border: 1px solid #00929C;
+    background-color: var(--bg-color);
+    color: #00929C;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.buttons > button:nth-of-type(2){
+    width: 107px;
+    height: 46px;
+    background-color:#00929C;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 6px;
+}
