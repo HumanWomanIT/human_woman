@@ -1,5 +1,5 @@
 import './header.css';
-import logo from '../../assets/Round.png'
+import logo from '../../assets/logo.png'
 import { NavBar } from '../NavBar/NavBar'
 
 

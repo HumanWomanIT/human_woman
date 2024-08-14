@@ -13,6 +13,8 @@
     margin-left: 38px;
     color: var(--font-color);
     font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
 }
 
 .underline_anim {

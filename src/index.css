@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,9 @@
 
 :root {
     --font-color: #18191F;
+    --font-family: 'Inter', sans-serif;
     --bg-color: #F5F7FA;
+    --button-color: #00929C;
 }
 
 #root {
@@ -17,13 +21,14 @@
 }
 
 .container {
-    margin-left: 150px;
+    padding: 87px 144px;
 }
 
 button{
     outline: none;
     border: none;
     cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 li{

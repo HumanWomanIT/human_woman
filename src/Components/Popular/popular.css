@@ -1,0 +1,67 @@
+.popular {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.popular > h2{
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.popular_category {
+    display: grid;
+    grid-template-columns: repeat(3, 617px);
+    grid-template-rows: repeat(4, 202px);
+    margin-top: 58px;
+    gap: 24px;
+}
+
+.popular_category > div {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+        linear-gradient(90deg, #F5F7FA 0%, #FFFFFF 100%);
+    border: 1px solid #E4E5E8;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    align-items: center;
+}
+
+.popular_category > div > img {
+    margin-left: 50px;
+}
+
+.category_text {
+    margin-left: 16px;
+    line-height: 50px;
+}
+
+.category_text > h3 {
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+
+.category_text > span{
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+    color: #5E6670;
+}
+
+.popular > button{
+    width: 170px;
+    height: 70px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: var(--button-color);
+    color:  #FFFFFF;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 59px;
+    align-self: flex-end;
+}

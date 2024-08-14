@@ -3,7 +3,7 @@ import "./navBar.css";
 
 export const NavBar = () => {
     return (
-        <nav className="nav_bar container">
+        <nav className="nav_bar">
             <ul>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
@@ -12,7 +12,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
-                        Remote Jobs
+                        Handmade
                     </a>
                 </li>
                 <li>
@@ -22,7 +22,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                     <a href="#" target="_blank" className="underline_anim">
-                        Training
+                        Contact Us
                     </a>
                 </li>
                 <li>
@@ -36,7 +36,7 @@ export const NavBar = () => {
                     </a>
                 </li>
             </ul>
-            <Buttons/>
+            <Buttons />
         </nav>
     );
 };

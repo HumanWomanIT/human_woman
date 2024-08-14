@@ -1,0 +1,72 @@
+.craftsman {
+    background: #FFFFFF;
+}
+
+.craftsman>img:nth-of-type(2) {
+    transform: rotate(180deg);
+}
+
+.craftsman>h2 {
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0 144px;
+    color: var(--font-color);
+}
+
+.craftsman_popular {
+    display: flex;
+    gap: 50px;
+}
+
+.craftsman_popular > div {
+    width: 600px;
+    height: 900px;
+    border-radius: 8px;
+    background: var(--bg-color);
+    border: 1px solid #E4E5E8;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    padding: 31px 43px;
+}
+
+.craftsman_popular > div > span {
+    border: 5px solid var(--button-color);
+    width: 267px;
+    border-radius: 5px;
+    margin-top: 39px;
+}
+
+.craftsman_popular > div > h3 {
+    margin-top: 45px;
+    font-family: var(--font-family);
+    color: #000000;
+    font-size: 28px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.craftsman_popular > div > p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #000000;
+    overflow: hidden; 
+}
+
+.craftsman_popular > div > button {
+    width: 210px; 
+    height: 75px; 
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 49px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    background-color: var(--button-color);
+}
